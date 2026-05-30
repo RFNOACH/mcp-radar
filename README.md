@@ -213,41 +213,6 @@ I chose curated competitor seeds over fully autonomous competitor discovery. Thi
 4. Add MCP registry parsing and Claude Code/Cursor/Codex config validation.
 5. Add an evaluation harness with intentionally broken URLs, malformed npm payloads, and simulated 429s.
 
-## Video walkthrough script
-
-### 0:00-0:30 — Problem framing
-
-"I built MCP Radar, an agent that helps a technical GTM lead understand which web-access MCP tools are gaining developer adoption. I picked this because Bright Data's role is not only scraping; it is becoming infrastructure for coding agents."
-
-### 0:30-1:10 — Architecture
-
-Show README architecture.
-
-"The agent separates orchestration, MCP tools, retries, logging, and report rendering. The important part is that tool failures are expected, not exceptional."
-
-### 1:10-2:10 — Live run
-
-Commands:
-
-```bash
-npm install
-npm run demo
-```
-
-Point out:
-
-- Successful Bright Data MCP connection.
-- Live execution of `search_engine`.
-- Live execution of `scrape_as_markdown`.
-- Automatic npm fallback when a structured MCP extraction tool is unavailable.
-
-### 2:10-2:40 — Failure handling
-
-"If MCP or a scrape fails, it retries once, falls back, marks confidence down, and records the event. The report still completes. That is the production behavior I wanted to demonstrate."
-
-### 2:40-3:00 — Why this matters
-
-"The output is useful for Part 2 as well: it creates an evidence-backed view of Firecrawl, Apify, and Bright Data's relative developer adoption. With two more weeks I would add trend history and MCP registry validation."
 
 ## Live demo fallback plan
 
