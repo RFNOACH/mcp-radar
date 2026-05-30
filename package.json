@@ -1,0 +1,25 @@
+{
+  "name": "mcp-radar",
+  "version": "1.0.0",
+  "description": "Agent ecosystem intelligence using Bright Data MCP",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "web": "tsx src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit",
+    "demo": "tsx src/index.ts --competitors firecrawl,apify,brightdata --focus mcp"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^25.9.1"
+  }
+}
