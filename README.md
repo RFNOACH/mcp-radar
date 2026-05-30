@@ -230,7 +230,6 @@ Show README architecture.
 Commands:
 
 ```bash
-cd part-1-agent
 npm install
 npm run demo
 ```
