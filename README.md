@@ -50,14 +50,23 @@ Built with Bright Data MCP as the primary web intelligence layer, MCP Radar disc
 For each competitor:
 
 1. Resolve curated competitor seed metadata: GitHub repo, npm package, docs URL.
+
+
 2. Use Bright Data MCP tools:
    - `scrape_as_markdown` for documentation and integration pages.
    - `search_engine` for competitor discovery and ecosystem signals.
 
 2.1. If a structured extraction tool is unavailable, automatically fall back to public APIs while preserving confidence annotations and reliability logs.
+
 3. Enrich GitHub metrics with the public GitHub API for deterministic repo-level fields.
+
+
 4. Extract explicit integration signals: Cursor, Claude, VS Code, and agentic/browser/structured-data depth.
+
+
 5. Score using transparent heuristics rather than opaque LLM judgment.
+
+
 6. Write both `outputs/latest-report.md` and `outputs/latest-report.json`.
 
 ## Project Structure
