@@ -1,5 +1,8 @@
 # MCP Radar
 
+<img width="876" height="496" alt="image" src="https://github.com/user-attachments/assets/18dd1d8a-a1f9-47ea-a756-63000ae05cbe" />
+
+
 ## Competitive Intelligence for the MCP Ecosystem
 
 MCP Radar is an AI-powered competitive intelligence platform that analyzes a curated benchmark set of MCP-enabled web-access tools and identifies which competitors are gaining developer traction.
