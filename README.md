@@ -2,7 +2,7 @@
 
 ## Competitive Intelligence for the MCP Ecosystem
 
-MCP Radar is an AI-powered competitive intelligence platform that analyzes a curated benchmark set of MCP-enabled web-access tolos and identifies which competitors are gaining developer traction.
+MCP Radar is an AI-powered competitive intelligence platform that analyzes a curated benchmark set of MCP-enabled web-access tools and identifies which competitors are gaining developer traction.
 
 Built with Bright Data MCP as the primary web intelligence layer, MCP Radar discovers competitors, gathers ecosystem signals, handles data-source failures gracefully, and generates evidence-backed executive reports.
 
