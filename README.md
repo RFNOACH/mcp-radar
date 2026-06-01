@@ -53,6 +53,7 @@ For each competitor:
 2. Use Bright Data MCP tools:
    - `scrape_as_markdown` for documentation and integration pages.
    - `search_engine` for competitor discovery and ecosystem signals.
+
 2.1. If a structured extraction tool is unavailable, automatically fall back to public APIs while preserving confidence annotations and reliability logs.
 3. Enrich GitHub metrics with the public GitHub API for deterministic repo-level fields.
 4. Extract explicit integration signals: Cursor, Claude, VS Code, and agentic/browser/structured-data depth.
