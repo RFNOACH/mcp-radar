@@ -232,15 +232,4 @@ If the MCP server is unavailable live:
 MCP_RADAR_DEMO_MODE=true npm run demo
 ```
 
-## Assignment Requirements Coverage
 
-| Requirement | Status |
-|------------|---------|
-| Bright Data MCP Integration | ✅ |
-| Competitor Intelligence Agent | ✅ |
-| Live Web Access | ✅ |
-| Failure Handling | ✅ |
-| Report Generation | ✅ |
-| Web Interface | ✅ |
-| Executive Memo | ✅ |
-| GitHub Repository | ✅ |
