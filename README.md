@@ -126,7 +126,7 @@ npm start
 Demo command:
 
 ```bash
-npm run demo
+npm run web
 ```
 
 If you do not provide `API_TOKEN`, the agent automatically runs in fallback demo mode. This is intentional: a live demo should show graceful degradation rather than crash because credentials are absent.
